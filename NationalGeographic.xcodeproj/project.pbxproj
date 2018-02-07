@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B09590F4202B2DC900FC6171 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09590F3202B2DC900FC6171 /* Content.swift */; };
+		B09590F6202B33A900FC6171 /* ContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09590F5202B33A900FC6171 /* ContentTableViewCell.swift */; };
+		B09590F8202B391800FC6171 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09590F7202B391800FC6171 /* WebViewViewController.swift */; };
+		B0BE7485202B016C003E37D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0BE7483202B016C003E37D6 /* Main.storyboard */; };
+		B0BE7487202B016C003E37D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0BE7486202B016C003E37D6 /* Assets.xcassets */; };
+		B0BE748A202B016C003E37D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0BE7488202B016C003E37D6 /* LaunchScreen.storyboard */; };
+		B0BE74A1202B0334003E37D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE7493202B0334003E37D6 /* AppDelegate.swift */; };
+		B0BE74A3202B0334003E37D6 /* BaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE7496202B0334003E37D6 /* BaseManager.swift */; };
+		B0BE74A4202B0334003E37D6 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE7497202B0334003E37D6 /* CacheManager.swift */; };
+		B0BE74A5202B0334003E37D6 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE7498202B0334003E37D6 /* ServiceManager.swift */; };
+		B0BE74A6202B0334003E37D6 /* APIServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE749A202B0334003E37D6 /* APIServiceClient.swift */; };
+		B0BE74A7202B0334003E37D6 /* BaseServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE749B202B0334003E37D6 /* BaseServiceClient.swift */; };
+		B0BE74AA202B0334003E37D6 /* ContentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE74A0202B0334003E37D6 /* ContentsViewController.swift */; };
+		B0BE74B1202B04B2003E37D6 /* BaseMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE74AC202B04B2003E37D6 /* BaseMappable.swift */; };
+		B0BE74B2202B04B2003E37D6 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE74AD202B04B2003E37D6 /* Page.swift */; };
+		B0BE74B3202B04B2003E37D6 /* LoadMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE74AE202B04B2003E37D6 /* LoadMore.swift */; };
+		B0BE74B5202B04B2003E37D6 /* LeadMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE74B0202B04B2003E37D6 /* LeadMedia.swift */; };
+		D7BC60347754DF91605B46F5 /* Pods_NationalGeographic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B5D6F4C8212AF20AABF285 /* Pods_NationalGeographic.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25B5D6F4C8212AF20AABF285 /* Pods_NationalGeographic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NationalGeographic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5065492B583B7B98F97BA938 /* Pods-NationalGeographic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NationalGeographic.release.xcconfig"; path = "Pods/Target Support Files/Pods-NationalGeographic/Pods-NationalGeographic.release.xcconfig"; sourceTree = "<group>"; };
+		B09590F3202B2DC900FC6171 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		B09590F5202B33A900FC6171 /* ContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTableViewCell.swift; sourceTree = "<group>"; };
+		B09590F7202B391800FC6171 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
+		B0BE747C202B016C003E37D6 /* NationalGeographic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NationalGeographic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0BE7484202B016C003E37D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0BE7486202B016C003E37D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0BE7489202B016C003E37D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0BE748B202B016C003E37D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0BE7493202B0334003E37D6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0BE7496202B0334003E37D6 /* BaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseManager.swift; sourceTree = "<group>"; };
+		B0BE7497202B0334003E37D6 /* CacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		B0BE7498202B0334003E37D6 /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		B0BE749A202B0334003E37D6 /* APIServiceClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIServiceClient.swift; sourceTree = "<group>"; };
+		B0BE749B202B0334003E37D6 /* BaseServiceClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseServiceClient.swift; sourceTree = "<group>"; };
+		B0BE74A0202B0334003E37D6 /* ContentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentsViewController.swift; sourceTree = "<group>"; };
+		B0BE74AC202B04B2003E37D6 /* BaseMappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseMappable.swift; sourceTree = "<group>"; };
+		B0BE74AD202B04B2003E37D6 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		B0BE74AE202B04B2003E37D6 /* LoadMore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadMore.swift; sourceTree = "<group>"; };
+		B0BE74B0202B04B2003E37D6 /* LeadMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeadMedia.swift; sourceTree = "<group>"; };
+		F78C723918B2FAA8C663B21D /* Pods-NationalGeographic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NationalGeographic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NationalGeographic/Pods-NationalGeographic.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0BE7479202B016C003E37D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BC60347754DF91605B46F5 /* Pods_NationalGeographic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0BE7473202B016C003E37D6 = {
+			isa = PBXGroup;
+			children = (
+				B0BE747E202B016C003E37D6 /* NationalGeographic */,
+				B0BE747D202B016C003E37D6 /* Products */,
+				EFD499798ED54A940EF37F2C /* Pods */,
+				C2684AAF319832F4BCC8E2A2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B0BE747D202B016C003E37D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0BE747C202B016C003E37D6 /* NationalGeographic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0BE747E202B016C003E37D6 /* NationalGeographic */ = {
+			isa = PBXGroup;
+			children = (
+				B0BE7491202B0334003E37D6 /* Classes */,
+				B0BE7483202B016C003E37D6 /* Main.storyboard */,
+				B0BE7486202B016C003E37D6 /* Assets.xcassets */,
+				B0BE7488202B016C003E37D6 /* LaunchScreen.storyboard */,
+				B0BE748B202B016C003E37D6 /* Info.plist */,
+			);
+			path = NationalGeographic;
+			sourceTree = "<group>";
+		};
+		B0BE7491202B0334003E37D6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B0BE74AB202B04B2003E37D6 /* Models */,
+				B0BE7492202B0334003E37D6 /* AppDelegate */,
+				B0BE7494202B0334003E37D6 /* Managers */,
+				B0BE7499202B0334003E37D6 /* Network */,
+				B0BE749F202B0334003E37D6 /* Screens */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B0BE7492202B0334003E37D6 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B0BE7493202B0334003E37D6 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B0BE7494202B0334003E37D6 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B0BE7496202B0334003E37D6 /* BaseManager.swift */,
+				B0BE7497202B0334003E37D6 /* CacheManager.swift */,
+				B0BE7498202B0334003E37D6 /* ServiceManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		B0BE7499202B0334003E37D6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B0BE749A202B0334003E37D6 /* APIServiceClient.swift */,
+				B0BE749B202B0334003E37D6 /* BaseServiceClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B0BE749F202B0334003E37D6 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B0BE74A0202B0334003E37D6 /* ContentsViewController.swift */,
+				B09590F5202B33A900FC6171 /* ContentTableViewCell.swift */,
+				B09590F7202B391800FC6171 /* WebViewViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B0BE74AB202B04B2003E37D6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B0BE74AC202B04B2003E37D6 /* BaseMappable.swift */,
+				B0BE74AD202B04B2003E37D6 /* Page.swift */,
+				B0BE74AE202B04B2003E37D6 /* LoadMore.swift */,
+				B0BE74B0202B04B2003E37D6 /* LeadMedia.swift */,
+				B09590F3202B2DC900FC6171 /* Content.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C2684AAF319832F4BCC8E2A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25B5D6F4C8212AF20AABF285 /* Pods_NationalGeographic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFD499798ED54A940EF37F2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F78C723918B2FAA8C663B21D /* Pods-NationalGeographic.debug.xcconfig */,
+				5065492B583B7B98F97BA938 /* Pods-NationalGeographic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0BE747B202B016C003E37D6 /* NationalGeographic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0BE748E202B016C003E37D6 /* Build configuration list for PBXNativeTarget "NationalGeographic" */;
+			buildPhases = (
+				76B82359F105F620FB17D9B5 /* [CP] Check Pods Manifest.lock */,
+				B0BE7478202B016C003E37D6 /* Sources */,
+				B0BE7479202B016C003E37D6 /* Frameworks */,
+				B0BE747A202B016C003E37D6 /* Resources */,
+				45B62D3C0B511ACE0A8DAC26 /* [CP] Embed Pods Frameworks */,
+				C0D1615B911890882DB9649B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NationalGeographic;
+			productName = NationalGeographic;
+			productReference = B0BE747C202B016C003E37D6 /* NationalGeographic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0BE7474202B016C003E37D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Anton Lyapov";
+				TargetAttributes = {
+					B0BE747B202B016C003E37D6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B0BE7477202B016C003E37D6 /* Build configuration list for PBXProject "NationalGeographic" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0BE7473202B016C003E37D6;
+			productRefGroup = B0BE747D202B016C003E37D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0BE747B202B016C003E37D6 /* NationalGeographic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0BE747A202B016C003E37D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0BE748A202B016C003E37D6 /* LaunchScreen.storyboard in Resources */,
+				B0BE7487202B016C003E37D6 /* Assets.xcassets in Resources */,
+				B0BE7485202B016C003E37D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45B62D3C0B511ACE0A8DAC26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NationalGeographic/Pods-NationalGeographic-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NationalGeographic/Pods-NationalGeographic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76B82359F105F620FB17D9B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NationalGeographic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0D1615B911890882DB9649B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NationalGeographic/Pods-NationalGeographic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0BE7478202B016C003E37D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B09590F8202B391800FC6171 /* WebViewViewController.swift in Sources */,
+				B0BE74AA202B0334003E37D6 /* ContentsViewController.swift in Sources */,
+				B0BE74A4202B0334003E37D6 /* CacheManager.swift in Sources */,
+				B0BE74B5202B04B2003E37D6 /* LeadMedia.swift in Sources */,
+				B09590F4202B2DC900FC6171 /* Content.swift in Sources */,
+				B09590F6202B33A900FC6171 /* ContentTableViewCell.swift in Sources */,
+				B0BE74B3202B04B2003E37D6 /* LoadMore.swift in Sources */,
+				B0BE74B1202B04B2003E37D6 /* BaseMappable.swift in Sources */,
+				B0BE74A3202B0334003E37D6 /* BaseManager.swift in Sources */,
+				B0BE74A7202B0334003E37D6 /* BaseServiceClient.swift in Sources */,
+				B0BE74B2202B04B2003E37D6 /* Page.swift in Sources */,
+				B0BE74A6202B0334003E37D6 /* APIServiceClient.swift in Sources */,
+				B0BE74A1202B0334003E37D6 /* AppDelegate.swift in Sources */,
+				B0BE74A5202B0334003E37D6 /* ServiceManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0BE7483202B016C003E37D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0BE7484202B016C003E37D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0BE7488202B016C003E37D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0BE7489202B016C003E37D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0BE748C202B016C003E37D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0BE748D202B016C003E37D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0BE748F202B016C003E37D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F78C723918B2FAA8C663B21D /* Pods-NationalGeographic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FMT7GUZQ5Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NationalGeographic/Frameworks",
+				);
+				INFOPLIST_FILE = NationalGeographic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NationalGeographic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0BE7490202B016C003E37D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5065492B583B7B98F97BA938 /* Pods-NationalGeographic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FMT7GUZQ5Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NationalGeographic/Frameworks",
+				);
+				INFOPLIST_FILE = NationalGeographic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NationalGeographic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0BE7477202B016C003E37D6 /* Build configuration list for PBXProject "NationalGeographic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0BE748C202B016C003E37D6 /* Debug */,
+				B0BE748D202B016C003E37D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0BE748E202B016C003E37D6 /* Build configuration list for PBXNativeTarget "NationalGeographic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0BE748F202B016C003E37D6 /* Debug */,
+				B0BE7490202B016C003E37D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0BE7474202B016C003E37D6 /* Project object */;
+}
