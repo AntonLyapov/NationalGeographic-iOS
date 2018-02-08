@@ -1,6 +1,6 @@
 //
 //  BaseServiceClient.swift
-//  Placefier-iOS
+//  NationalGeographic
 //
 //  Created by Anton Lyapov on 11/15/17.
 //  Copyright © 2017 Anton Lyapov. All rights reserved.

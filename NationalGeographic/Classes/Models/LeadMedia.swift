@@ -1,6 +1,6 @@
 //
-//  Post.swift
-//  ObichamVicove
+//  LeadMedia.swift
+//  NationalGeographic
 //
 //  Created by Anton Lyapov on 11/28/17.
 //  Copyright © 2017 Anton Lyapov. All rights reserved.

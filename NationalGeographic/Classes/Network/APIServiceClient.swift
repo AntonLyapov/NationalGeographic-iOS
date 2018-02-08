@@ -1,6 +1,6 @@
 //
-//  PlacefierServiceClient.swift
-//  Placefier-iOS
+//  APIServiceClient.swift
+//  NationalGeographic
 //
 //  Created by Anton Lyapov on 11/15/17.
 //  Copyright © 2017 Anton Lyapov. All rights reserved.
@@ -15,7 +15,7 @@ class APIServiceClient: BaseServiceClient {
     private let BASE_API_PATH   = "bin/services/core/public/query/"
     
     private let METHOD_CONTENT = "content.json"
-//
+    
     private let PARAM_PAGE_SIZE         = "pageSize"
     private let PARAM_PAGE              = "page"
     private let PARAM_CONTENT_TYPES     = "contentTypes"
@@ -24,11 +24,8 @@ class APIServiceClient: BaseServiceClient {
     private let PARAM_INCLUDED_TAGS     = "includedTags"
     private let PARAM_EXCLUDED_TAGS     = "excludedTags"
     private let PARAM_EXCLUDED_GUIDS    = "excludedGuids"
-//    private let PARAM_PER_PAGE      = "per_page"
-//    private let PARAM_CATEGORIES    = "categories"
-//    private let PARAM_PARENT        = "parent"
-//
-    //http://obichamvicove.com/wp-json/wp/v2/posts?per_page=6&categories=3
+
+    
     func getContent(
         page: Int,
         size: Int,

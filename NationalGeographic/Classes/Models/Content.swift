@@ -1,5 +1,5 @@
 //
-//  Post.swift
+//  Content.swift
 //  NationalGeographic
 //
 //  Created by Anton Lyapov on 7.02.18.

@@ -22,7 +22,6 @@
 		B0BE74AA202B0334003E37D6 /* ContentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE74A0202B0334003E37D6 /* ContentsViewController.swift */; };
 		B0BE74B1202B04B2003E37D6 /* BaseMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE74AC202B04B2003E37D6 /* BaseMappable.swift */; };
 		B0BE74B2202B04B2003E37D6 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE74AD202B04B2003E37D6 /* Page.swift */; };
-		B0BE74B3202B04B2003E37D6 /* LoadMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE74AE202B04B2003E37D6 /* LoadMore.swift */; };
 		B0BE74B5202B04B2003E37D6 /* LeadMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE74B0202B04B2003E37D6 /* LeadMedia.swift */; };
 		D7BC60347754DF91605B46F5 /* Pods_NationalGeographic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B5D6F4C8212AF20AABF285 /* Pods_NationalGeographic.framework */; };
 /* End PBXBuildFile section */
@@ -47,7 +46,6 @@
 		B0BE74A0202B0334003E37D6 /* ContentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentsViewController.swift; sourceTree = "<group>"; };
 		B0BE74AC202B04B2003E37D6 /* BaseMappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseMappable.swift; sourceTree = "<group>"; };
 		B0BE74AD202B04B2003E37D6 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
-		B0BE74AE202B04B2003E37D6 /* LoadMore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadMore.swift; sourceTree = "<group>"; };
 		B0BE74B0202B04B2003E37D6 /* LeadMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeadMedia.swift; sourceTree = "<group>"; };
 		F78C723918B2FAA8C663B21D /* Pods-NationalGeographic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NationalGeographic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NationalGeographic/Pods-NationalGeographic.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -148,7 +146,6 @@
 			children = (
 				B0BE74AC202B04B2003E37D6 /* BaseMappable.swift */,
 				B0BE74AD202B04B2003E37D6 /* Page.swift */,
-				B0BE74AE202B04B2003E37D6 /* LoadMore.swift */,
 				B0BE74B0202B04B2003E37D6 /* LeadMedia.swift */,
 				B09590F3202B2DC900FC6171 /* Content.swift */,
 			);
@@ -313,7 +310,6 @@
 				B0BE74B5202B04B2003E37D6 /* LeadMedia.swift in Sources */,
 				B09590F4202B2DC900FC6171 /* Content.swift in Sources */,
 				B09590F6202B33A900FC6171 /* ContentTableViewCell.swift in Sources */,
-				B0BE74B3202B04B2003E37D6 /* LoadMore.swift in Sources */,
 				B0BE74B1202B04B2003E37D6 /* BaseMappable.swift in Sources */,
 				B0BE74A3202B0334003E37D6 /* BaseManager.swift in Sources */,
 				B0BE74A7202B0334003E37D6 /* BaseServiceClient.swift in Sources */,
